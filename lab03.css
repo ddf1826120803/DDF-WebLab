@@ -1,0 +1,148 @@
+/*
+* @Author: 杜东方
+* @Date:   2018-03-28 20:24:02
+* @Last Modified by:   ddf
+* @Last Modified time: 2018-03-29 16:06:53
+*/
+*{
+	box-sizing: border-box;
+}
+body{
+	font-size: 1em;
+	font-family: sans-serif,Times New Roman,serif;
+	padding-left:5%;
+	padding-right:5%;
+	background-color:#E6E6FA;
+	word-break: break-all;
+}
+header  h1,p{
+     margin:0;
+}
+header{
+	background-color: #1A237E;
+	width:100%;
+	color:white;
+	margin:0;
+	padding:1em;
+}
+header p{
+	font-style:italic;
+	font-size: 1em;
+}
+header h1{
+      font-size:1.5em;
+}
+nav {        margin:0;
+	padding-left:1em;
+	  background-color: #3F51B5;
+	  width:100%;
+
+}
+nav  ul{  margin:0;
+	padding:0;
+	list-style-type:none;
+}
+nav ul li{
+	float:left;
+}
+nav  ul li a{
+	margin:0;
+	padding-top:0.3em;
+	padding:0.3em;
+	display:block;
+	color:#00B0FF;
+	font-size: 0.8em;
+	padding-right:0.5em;
+	text-decoration: none;
+}
+nav  ul li a:hover{
+	color:white;
+	background-color: #F50057;
+}
+#section{
+	width:100%;
+	margin-top:0.5em;
+	padding:0.5em;
+	background-color: white;
+}
+#section h2{
+	padding:1em;
+	margin:0;
+	font-size:1em;
+	background-color: #7986CB;
+	color:white;
+}
+section .bgp{
+	margin:0;
+	padding:0;
+	border:0;
+	}
+section .bgp img{
+	display:block;
+	width:100%;
+	height:auto;
+	margin:0;
+}
+section  .bgp p{
+	margin:0;
+	width:100%;
+	background-color:#C5CAE9;
+	padding-left: 1em;
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
+	color:#7990A3;
+	font-style: italic;
+}
+  .bor{
+	width:100%;
+	margin:0;
+               padding: 0.5em 1em;
+              border:2px solid #CAC5E9;
+  }
+  .bor p{
+  	margin:0;
+  }
+  .bor a{
+  	font-weight:bold;
+  	color:#00B0FF;
+  }
+  .bor figure{
+  	display:block;
+  	float:right;
+  	margin:0;
+  	padding-top: 1em；
+  	padding-bottom:0.5em;
+  }
+  .section3 p{
+  	margin:0;
+  	padding-top:0.5em;
+  }
+  hr{
+  	margin:0;
+  }
+  .bor3{
+           margin:0;
+           width:100%;
+           border:2px solid #CAC5E9;
+           padding-left: 1em;
+           padding-right:1em;
+           padding-bottom: 1em;
+  }
+  footer{
+  	width:100%;
+  	background-color: #1A237E;
+  	margin-top: 0.5em;
+  	padding-left:1em;
+  	padding-top: 1.3em;
+  	padding-bottom: 1.3em;
+  }
+  footer p,i{
+  	color:white;
+  	margin:0;
+  }
+  footer p{
+  	padding-bottom: 0.6em;
+  }
+  footer p a{
+  	color:#00B0FF;
+  }
