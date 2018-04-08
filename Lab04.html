@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+   <meta charset="utf-8">
+   <title>Lab 04</title>
+   <link rel="stylesheet" href="./css/reset.css" />
+   <link rel="stylesheet" href="./css/Lab04.css" />
+</head>
+<body>
+<header>
+     <h1>Share Your Travels</h1>
+     <p>let us know where you've been</p>
+</header>
+<main>
+   <section>
+        <form method="post" action="http://www.randyconnolly.com/tests/process.php">
+        	<fieldset>
+        		<legend>PHOTO DETAILS</legend>
+        		<table style="width:100%;padding:5px;">
+        			<tr>
+        				<td  colspan="2">
+	        				<label >Title</label><br/>
+	        				<input  style="width:100%" placeholder="Give your photo a descriptive nam">
+        				</td>
+        			</tr>
+        			<tr>
+        				<td colspan="2">
+	        				<label >Description</label><br/>
+		        			<textarea name=""  style="width:100%;height:5em;">Adding a rich description will help with search result
+		        			</textarea>	     
+	        			</td>
+        			</tr>
+        			<tr>
+        				<td>
+        					<label>Content</label><br/>
+        					<select>
+        						<option value="Choose content">Choose content</option>
+        						<option value="1">1</option>
+        					</select><br/>
+        					<label>Country</label><br/>
+							<select>
+        						<option value="Choose country">
+        							Choose country
+        						</option>
+        						<option value="2">1</option>
+        					</select><br/>
+        					<label>City</label><br/>
+        						<input type="text" style="width:75%;"></label>
+        				</td>
+        				<td>
+        					<div style="border:1.5px solid #7986CB">
+	        					<label>Copyright?</label><br/>
+	        					<input type="radio" name="Copy">All rights reserved<br/>
+	        					<input type="radio" name="Copy" check="checked">Creative Commons<br/>
+	        				</div>	
+		        			<div style="border:1.5px solid #7986CB;margin-top:.5em;">
+	        					<label>Creative Commons Types</label><br/>
+	        					<input type="checkbox" name="Creative">Attribution<br/>
+	        					<input type="checkbox" name="Creative">Noncommmerarf<br/>
+	        					<input type="checkbox" name="Creative">No Derivative Works<br/>
+	        				</div>
+        				</td>
+        			</tr>
+        			<tr>
+        				<td colspan="2" style="background-color: #7986CB;padding:.8em .5em;">
+							I accept the software license<input type ="checkbox">
+        				</td>
+        			</tr>
+        			<tr>
+        				<td>
+        					<label>Rate this photo:</label><br/>
+        					<input type="image"><br/>
+							<label>Color Collection:</label><br/>
+        					<input type="color">
+        				</td>
+        				<td style="border:1.5px solid #7986CB;padding:1.5em .5em;">
+        					<label>Date Taken:</label><br/>
+        					<input type="date"><br/>
+        					<label>Time Taken:</label><br/>
+        					<input type="time">
+        				</td>
+        			</tr>
+        			<tr>
+        				<td style="background-color: #7986CB;padding:.8em;" colspan="2">  
+        					<input type="submit"  value="提交">
+        					<input type="reset" value="Clear Form">
+        				</td>
+        			</tr>
+        		</table>
+        	</fieldset>
+        </form>
+   </section>
+</main>  
+
+
+</body>
+</html>
