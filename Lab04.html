@@ -16,17 +16,18 @@
         <form method="post" action="http://www.randyconnolly.com/tests/process.php">
         	<fieldset>
         		<legend>PHOTO DETAILS</legend>
-        		<table style="width:100%;padding:5px;">
+        		<table >
+                                 <tbody>
         			<tr>
         				<td  colspan="2">
 	        				<label >Title</label><br/>
-	        				<input  style="width:100%" placeholder="Give your photo a descriptive nam">
+	        				<input name="title" placeholder="Give your photo a descriptive nam">
         				</td>
         			</tr>
         			<tr>
         				<td colspan="2">
 	        				<label >Description</label><br/>
-		        			<textarea name=""  style="width:100%;height:5em;">Adding a rich description will help with search result
+		        			<textarea name="">Adding a rich description will help with search result
 		        			</textarea>	     
 	        			</td>
         			</tr>
@@ -45,15 +46,15 @@
         						<option value="2">1</option>
         					</select><br/>
         					<label>City</label><br/>
-        						<input type="text" style="width:75%;"></label>
+        						<input type="text" name="city"></label>
         				</td>
         				<td>
-        					<div style="border:1.5px solid #7986CB">
+        					<div class="box">
 	        					<label>Copyright?</label><br/>
 	        					<input type="radio" name="Copy">All rights reserved<br/>
-	        					<input type="radio" name="Copy" check="checked">Creative Commons<br/>
+	        					<input type="radio" name="Copy" checked="checked">Creative Commons<br/>
 	        				</div>	
-		        			<div style="border:1.5px solid #7986CB;margin-top:.5em;">
+		        			<div class="box">
 	        					<label>Creative Commons Types</label><br/>
 	        					<input type="checkbox" name="Creative">Attribution<br/>
 	        					<input type="checkbox" name="Creative">Noncommmerarf<br/>
@@ -61,36 +62,42 @@
 	        				</div>
         				</td>
         			</tr>
-        			<tr>
-        				<td colspan="2" style="background-color: #7986CB;padding:.8em .5em;">
+        			<tr class="rectangle">
+        				<td colspan="2">
 							I accept the software license<input type ="checkbox">
         				</td>
         			</tr>
         			<tr>
         				<td>
         					<label>Rate this photo:</label><br/>
-        					<input type="image"><br/>
+        					<input type="number"><br/>
 							<label>Color Collection:</label><br/>
         					<input type="color">
         				</td>
-        				<td style="border:1.5px solid #7986CB;padding:1.5em .5em;">
+        				<td>
+                                                                        <div class="box">
         					<label>Date Taken:</label><br/>
         					<input type="date"><br/>
         					<label>Time Taken:</label><br/>
         					<input type="time">
+                                                                           </div> 
         				</td>
         			</tr>
-        			<tr>
-        				<td style="background-color: #7986CB;padding:.8em;" colspan="2">  
-        					<input type="submit"  value="提交">
-        					<input type="reset" value="Clear Form">
+        			<tr class="rectangle">
+        				<td  colspan="2" >  
+        					<input type="submit"  value="提交" class="rounded">
+        					<input type="reset" value="Clear Form" class="rounded">
         				</td>
         			</tr>
+                                       </tbody>
         		</table>
         	</fieldset>
         </form>
    </section>
 </main>  
+<footer>
+    
+</footer>
 
 
 </body>
