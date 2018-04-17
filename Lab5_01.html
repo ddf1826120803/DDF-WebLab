@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+		<title >Lab03</title>
+	</head>
+	<body>
+		<header class="container">
+			<div class="row">
+				<div class="col-md-5 text-center">
+					<h1 > Share Your Travels</h1>
+					<p>Let us know where you have been</p>
+				</div>
+				<nav class="col-md-7 navbar navbar-expand-md row">
+					<ul class ="navbar-nav  col-md-12">
+						<li class="nav-item  text-center col-md-4">
+						 	<a  href="Lab04.html" class="nav-link ">Upload</a>	
+						</li>
+						<li class="nav-item text-center col-md-4">
+							<a  href="#" class="nav-link">Related Photos</a>
+						</li>
+						<li class="nav-item  text-center col-md-4">
+							<a  href="#" class="nav-link">Reviews</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		<div  class="container">
+			<div class="row">
+				<section class="col-md-9 card">
+					<div class="card-body">
+						<div >
+							<h3>New York - Central Park</h3>
+							<p>Conservatory Pond in  Central Par</p>
+						</div>
+						<div>
+							<div >
+								<img src ="images/large-central-park.jpg" alt="central Park" class="img-fluid" data-toggle="modal" data-target="#myModal">
+								<div class="modal fade" id="myModal">
+									  <div class="modal-dialog modal-lg">
+										    <div class="modal-content">
+											   <div class="modal-body">
+											    	<img src ="images/large-central-park.jpg" alt="central Park" class="img-fluid">
+											      </div>							
+											      <div class="modal-footer">
+											        	<button type="button" class="btn btn-secondary" data-dismiss="modal">返回</button>
+											      </div>
+										    </div>
+									</div>
+							`	</div>
+
+							</div>
+							<div >
+								<p >This photo of Conservatory Pond in<a href="#"> Central Park</a> in <a href="#"> New York City </a> was taken on October 22,2016 with a Canon EOS 30D camera.</p>
+								 <figure class="text-right">
+								          	<img src="images/icon_mail.png" alt="mail" width="18px" height="18px">
+								          	<img src="images/icon_map.png" alt="map" width="18px" height="18px">
+								          	<img src="images/icon_download.png" alt="download" width="18px" height="18px">
+								          	<img src="images/icon_up.png" alt="up" width="18px" height="18px">
+								          	<img src="images/icon_down.png" alt="down" width="18px" height="18px">			   	
+								</figure>
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="col-md-3 ">
+					<section  class="carousel slide card" data-ride="carousel" id="demo">
+						<div class="card-body">
+							<h3>Related Photos</h3>
+							 <ul class="carousel-indicators">
+								    <li data-target="#demo" data-slide-to="0" class="active"></li>
+								    <li data-target="#demo" data-slide-to="1"></li>
+								    <li data-target="#demo" data-slide-to="2"></li>
+							  </ul>
+							  <div class="carousel-inner">
+								    <div class="carousel-item active">
+								    	<img src="images/related-square1.jpg" alt="relat1" class="img-fluid" width="100%" height="auto"  data-toggle="modal" data-target="#myModal2">
+								    </div>
+								    <div class="carousel-item">
+								     	<img src="images/related-square2.jpg" alt="relat2" class="img-fluid" width="100%" height="auto"  data-toggle="modal" data-target="#myModal3">
+								     </div>
+								    <div class="carousel-item">
+								      	<img src="images/related-square3.jpg" alt="relat3" class="img-fluid" width="100%" height="auto"  data-toggle="modal" data-target="#myModal4">
+								    </div>
+							  </div>
+							  <div class="modal fade" id="myModal2">
+									  <div class="modal-dialog modal-lg">
+										    <div class="modal-content">
+											   <div class="modal-body">
+											    <img src="images/related-square1.jpg" alt="relat1" class="img-fluid">
+											      </div>							
+											      <div class="modal-footer">
+											        	<button type="button" class="btn btn-secondary" data-dismiss="modal">返回</button>
+											      </div>
+										    </div>
+									</div>
+							`	</div>
+							<div class="modal fade" id="myModal3">
+									  <div class="modal-dialog modal-lg">
+										    <div class="modal-content">
+											   <div class="modal-body">
+											    	<img src="images/related-square2.jpg" alt="relat2" class="img-fluid">
+											      </div>							
+											      <div class="modal-footer">
+											        	<button type="button" class="btn btn-secondary" data-dismiss="modal">返回</button>
+											      </div>
+										    </div>
+									</div>
+							`	</div>
+							<div class="modal fade" id="myModal4">
+									  <div class="modal-dialog modal-md">
+										    <div class="modal-content">
+											   <div class="modal-body">
+											    	<img src="images/related-square3.jpg" alt="relat3" class="img-fluid">
+											      </div>							
+											      <div class="modal-footer">
+											        	<button type="button" class="btn btn-secondary" data-dismiss="modal">返回</button>
+											      </div>
+										    </div>
+									</div>
+							`	</div>
+	
+							  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+							    	<span class="carousel-control-prev-icon"></span>
+							  </a>
+							  <a class="carousel-control-next" href="#demo" data-slide="next">
+							    	<span class="carousel-control-next-icon"></span>
+							  </a>
+						</div>
+					</section>
+					<section class="section3 card">
+						<div class="card-body">
+							<h3>Reviews</h3>
+							<div class="bor3 text-center">
+								<h4><i>Ricardo</i></h4>
+								 <a href="#"><span  class="badge badge-pill badge-primary" data-toggle="collapse" data-target="#demo1">2016-05-23</span></a>
+								  <p id="demo1" class="collapse">Easy on the HDR buddy.</p>
+								  <hr/>
+								  <h4><i>Susan</i></h4>
+								 <a href="#"><span  class="badge badge-pill badge-primary" data-toggle="collapse" data-target="#demo2">2016-11-18</span></a>
+								  <p id="demo2" class="collapse">I love Central Park.</p>
+							</div>
+						</div>
+					</section>
+				</div>	
+			</div>
+	     	</div>
+		
+		<footer class="container">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-5">
+					<div class="row">
+						<a href="#" class="col-md-4 text-center">Home</a> 
+						 <a href="#" class="col-md-4 text-center">Browse</a> 
+						 <a href="#" class="col-md-4 text-center">Search</a>
+					</div>
+					<p class="text-center"><i>Copyright  &copy; 2017 Share Your Travels</i></p>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</footer>
+	</body>
+</html>
