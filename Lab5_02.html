@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Lab 04</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header class="container">
+            <div class="row">
+                <div class="col-md-5 text-center">
+                    <h1 > Share Your Travels</h1>
+                    <p>Let us know where you have been</p>
+                </div>
+                <nav class="col-md-7 navbar navbar-expand-md row">
+                    <ul class ="navbar-nav  col-md-12">
+                        <li class="nav-item  text-center col-md-4">
+                            <a   class="nav-link "  href="Lab5_01.html">Gallery</a>   
+                        </li>
+                        <li class="nav-item text-center col-md-4">
+                            <a  href="#" class="nav-link">Related Photos</a>
+                        </li>
+                        <li class="nav-item  text-center col-md-4">
+                            <a  href="#" class="nav-link">Reviews</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+</header>
+   <section class="container card">
+        <form method="post" action="http://www.randyconnolly.com/tests/process.php" class="card-body">
+        	<fieldset>
+        		<legend>Photo Details</legend>
+                                                <div class="form-group">
+	        		             <label >Title</label><br/>
+	        			<input name="title" placeholder="Give your photo a descriptive nam" type="text" class="form-control">
+        			  </div>
+                                                                    <div class="form-group">
+	        				<label >Description</label><br/>
+		        			<textarea name="" class="form-control" rows="4">Adding a rich description will help with search result
+		        			</textarea>	     
+	        		                         </div>
+                                                                          <div class="form-group">
+                					<label>Continent</label><br/>
+                					<select  class="form-control">
+                						<option value="Choose content">Choose content</option>
+                						<option value="1">1</option>
+                					</select>
+                                                                               </div><br/>
+                                                                                  <div class="form-group">
+        					               <label>Country</label><br/>
+						<select  class="form-control">
+                						<option value="Choose country">
+                							Choose country
+                						</option>
+                						<option value="2">1</option>
+        					           </select>
+                                                                            </div><br/>
+                                                                                 <div class="form-group">
+        					               <label>City</label><br/>
+        						<input type="text" name="city" class="form-control"></label>
+                                                                                </div>
+        			
+        					<div class="radio" >
+	        					<label>Copyright?</label><br/>
+	        					<input type="radio" name="Copy">All rights reserved<br/>
+	        					<input type="radio" name="Copy" checked="checked">Creative Commons
+	        				</div>	
+                                                                                            <br/>
+		        			<div>
+	        					<label>Creative Commons Types</label><br/>
+                                                                                                <div class="form-check-inline">
+	        					<label class="form-check-label"><input type="checkbox" name="Creative" type="checkbox" class="form-check-input">Attribution</label>
+                                                                                            </div>
+                                                                                               <div class="form-check-inline">
+                                                                                                <label class="form-check-label">
+	        					<input type="checkbox" name="Creative" class="form-check-input">Noncommmerarf</label>
+                                                                                                </div>
+                                                                                                  <div class="form-check-inline">
+                                                                                                      <label class="form-check-label">
+	        					<input type="checkbox" name="Creative" class="form-check-input">No Derivative Works</label>
+                                                                                            </div>
+	        				</div >
+                                                                                <br/>
+                                                                                <div class="form-check">
+        			                                                                 <label class="form-check-label">
+                                                                                        <input type ="checkbox" class="form-check-input">
+							I accept the software license</label>
+        	                                                               </div>
+                                                                           <br/>
+                                                                           <div class="row">
+                                                                                 <div class="col-md-4">
+                                                                                        <div class="form-group">
+                                                                                               <label>Rate this photo:</label><br/>
+                                                                                                <input type="number"  class="form-control">
+                                                                                        </div>
+                                                                                 </div>
+                                                                                 <div class="col-md-8">
+                                                                                        <div class="form-group">
+                                                                                               <label>Color Collection:</label><br/>
+                                                                                                <input type="text"  class="form-control">
+                                                                                        </div>
+                                                                                 </div>
+                                                                           </div>
+        				
+				            <div class="row">
+                                                                                    <div class="col-md-7">
+                                                                                        <div class="form-group">
+                                                                                               <label>Date Taken:</label><br/>
+                                                                                                <input type="text"  class="form-control">
+                                                                                        </div>
+                                                                                 </div>
+                                                                                   <div class="col-md-5">
+                                                                                        <div class="form-group">
+                                                                                               <label>Time Taken:</label><br/>
+                                                                                                <input type="text"  class="form-control">
+                                                                                        </div>
+                                                                                 </div>
+                                                                           </div>
+        					<input type="submit"  value="提交" >
+        					<input type="reset" value="Clear Form">
+        			
+        	</fieldset>
+        </form>
+   </section>  
+
+</body>
+</html>
