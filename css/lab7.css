@@ -1,0 +1,89 @@
+/*
+* @Author: ddf
+* @Date:   2018-05-13 16:05:56
+* @Last Modified by:   ddf
+* @Last Modified time: 2018-05-20 13:48:36
+*/
+*{
+	box-sizing: border-box;
+}
+.body{
+	font-size:16px;
+}
+.dropdown{
+	width:300px;
+	margin:0 auto;
+	padding:0;
+}
+form{
+	margin-bottom:.7em;
+}
+form select option,form select{
+	width:300px;
+	border:0;
+	font-size: 1.2em;
+	padding:.5em 0;
+	background-color:#333;
+	color:white;
+	transition: .3s all;
+	border-radius: 5px;
+	cursor: pointer;
+}
+form select:hover{
+	background-color: #708090;
+}
+.step1{
+	width:50%;
+	margin:0;
+	font-size: 1.2em;
+	padding:.5em 0;
+	border-radius: 5px;
+	margin:.4em 0;
+}
+button{
+	cursor: pointer;
+	background-color: red;
+}
+.commit{
+	width:100%;
+	font-size: 1.2em;
+	text-align: center;
+	border-radius: 5px;
+	margin:.5em 0;
+	cursor: pointer;
+	padding:.5em 0;
+	background-color: white;	
+	display: none;
+}
+.commit:hover{
+	background-color: lightgray;
+}
+.showCommit{
+	display:block;
+}
+.unShow{
+	display: none;
+}
+table{
+	margin:.8em auto;
+}
+table thead{
+	background-color: grey;
+	color: whitesmoke;
+	font-size: 1.8em;
+}
+table tbody{
+	font-size: 1.5em;
+	text-align: center;
+}
+table tbody tr:nth-child(even){
+	background-color: lightgrey;
+}
+table tbody tr td{
+	min-width: 75px;
+	padding:0 0.5em;
+}
+table thead tr td{
+	min-width: 75px;
+	padding:0 0.5em;
+}
